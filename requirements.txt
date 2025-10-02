@@ -1,0 +1,14 @@
+Flask
+gunicorn
+python-dotenv
+
+requests is needed for the urllib implementation, but flask already installs it indirectly.
+We include it explicitly for clarity, but removing pytest is recommended for production.
+Production Dependencies
+Flask
+gunicorn
+python-dotenv
+
+Development/Testing (Optional for deployment, but harmless to keep)
+pytest
+requests
